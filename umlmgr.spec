@@ -1,6 +1,6 @@
 %define name umlmgr
 %define version 0.10
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: Uml manager
 Name: %{name}
