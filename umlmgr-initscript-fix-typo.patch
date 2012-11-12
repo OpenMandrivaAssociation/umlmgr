@@ -1,0 +1,12 @@
+diff -Nurp umlmgr-0.10.orig/etc/umlmgr.init umlmgr-0.10/etc/umlmgr.init
+--- umlmgr-0.10.orig/etc/umlmgr.init	2008-07-15 17:35:56.000000000 +0300
++++ umlmgr-0.10/etc/umlmgr.init	2009-10-19 20:07:32.217325607 +0300
+@@ -34,7 +34,7 @@ case "$1" in
+     action "Starting $NAME" $NAME start
+ 	;;
+     stop)
+-    action "Stoping $NAME" $NAME stop
++    action "Stopping $NAME" $NAME stop
+ 	;;
+     status)
+ 	$NAME status
